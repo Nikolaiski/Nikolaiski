@@ -1,0 +1,62 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+	</head>
+	<title> Контакти с Моа </title>
+	<link rel="stylesheet" href="mystyle.css">
+	<body>
+	<!--Header-->
+	<div>
+	<h1> Личен сайт на Моа </h1>
+	</div>
+	
+	<!--Main-->
+	<nav class="mystyle">
+	<ul class="menu-4">
+	<li> <a href = "index.html" data-hover="Начало"> Начало </a> </li>
+	<li> <a href = "hobbies.html" data-hover="Хобита"> Хобита </a> </li>
+	<li> <a href = "gallery.html" data-hover="Галерия"> Галерия </a> </li>
+	<li class="current"> <a href = "contacts.html" data-hover="Контакти"> Контакти </a> </li>
+	</ul>
+	</nav>
+	<!------------Pic------------>
+	<div class="container">
+  <div style="text-align:center">
+    <h2>Контакти</h2>
+    <p>Свържи се с мен, за да ми пратиш пари</p>
+  </div>
+  <div class="row">
+    <div class="column">
+	<a href="https://youtu.be/9C_HReR_McQ" target="_blank">
+      <img src="poster.png" style="width:50%">
+	</a>
+    </div>
+    <div class="column">
+      <form action="sent.html">
+        <label for="fname">Първо име</label>
+        <input class="orange" type="text" id="fname" name="firstname" placeholder="Вашето име...">
+        <label for="lname">Последно име</label>
+        <input class="orange" type="text" id="lname" name="lastname" placeholder="Вашата фамилия...">
+        <label for="country">Държава</label>
+        <select class="orange" id="country" name="country">
+          <option value="australia">Австралия</option>
+          <option value="canada">Мексико</option>
+          <option value="usa">Китай</option>
+		  <option value="bulgaria">България</option>
+		  <option value="banglasesh">Бангладеш</option>
+		  <option value="uae">ОАЕ</option>
+		  <option value="chad">Чад</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea class="orange" id="subject" name="subject" placeholder="Напиши нещо (за предпочитание номер на кредитна карта)..." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+	<!-----Footer----->
+	<div>
+	<a>© Copyright 2021 </a>
+	</div>
+	</body>
+</html>

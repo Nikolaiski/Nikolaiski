@@ -1,0 +1,77 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+	</head>
+	<title> Хобитата на Моа </title>
+	<link rel="stylesheet" href="mystyle.css">
+	<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+	<body>
+	<!--Header-->
+	<div>
+	<h1> Личен сайт на Моа </h1>
+	</div>
+	
+	<!--Main-->
+	<nav class="mystyle">
+	<ul class="menu-4">
+	<li> <a href = "index.html" data-hover="Начало"> Начало </a> </li>
+	<li class="current"> <a href = "hobbies.html" data-hover="Хобита"> Хобита </a> </li>
+	<li> <a href = "gallery.html" data-hover="Галерия"> Галерия </a> </li>
+	<li> <a href = "contacts.html" data-hover="Контакти"> Контакти </a> </li>
+	</ul>
+	</nav>
+	<!------------Pics------------>	
+	<div class="gallery">
+  <a target="_blank" href="CloudWatching.png">
+    <img src="CloudWatching.png" alt="CloudWatching" width="600" height="400">
+  </a>
+  <div class="desc">I can see hat, I can see a cat, I can see a man with a baseball bat</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="CGI.png">
+    <img src="CGI.png" alt="CGI" width="600" height="400">
+  </a>
+  <div class="desc">We all live in a CGI simulations, really...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Picnik.png">
+    <img src="Picnik.png" alt="Picnic" width="600" height="400">
+  </a>
+  <div class="desc">Chicken Picnic is my virtue</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="boardgame.png">
+    <img src="boardgame.png" alt="BoardGame" width="600" height="400">
+  </a>
+  <div class="desc">Board Games or Computer Games... Not with Colin though</div>
+</div>
+	<!-----Footer----->
+	<div>
+	<a>© Copyright 2021 </a>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,183 @@
+body{
+	  background:#F58C8C;
+	  background-image: linear-gradient(to top, #CE3D3D 0%, #917070 100%);
+	  padding:75px;
+	  text-align:center;
+	  font-family: 'JosefinSans', sans-serif;
+	  font-size: 18px;
+	  height: 150vh;
+	}
+	h1{
+	  color:#212121;
+	  font-weight:100;
+	}
+	.spacer {
+	 padding: 30px 0;
+	}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width=283;
+  higth= 424.5;
+}
+
+
+	.menu-4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.menu-4 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu-4 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.menu-4 a {
+  padding: 0.3em 0;
+  color: #212121;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.menu-4 a:before,
+.menu-4 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu-4 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e67e22;
+}
+.menu-4 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: #212121;
+  white-space: nowrap;
+}
+.menu-4 li:hover a,
+.menu-4 .current a {
+  transform: translateY(100%);
+}
+body {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+	 font-family: sans-serif;
+}
+ h1 {
+	 color: coral;
+}
+ .grid-container {
+	 columns: 5 200px;
+	 column-gap: 1.5rem;
+	 width: 90%;
+	 margin: 0 auto;
+}
+ .grid-container div {
+	 width: 150px;
+	 margin: 0 1.5rem 1.5rem 0;
+	 display: inline-block;
+	 width: 100%;
+	 border: solid 2px black;
+	 padding: 5px;
+	 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	 border-radius: 5px;
+	 transition: all 0.25s ease-in-out;
+}
+ .grid-container div:hover img {
+	 filter: grayscale(0);
+}
+ .grid-container div:hover {
+	 border-color: coral;
+}
+ .grid-container div img {
+	 width: 100%;
+	 filter: grayscale(100%);
+	 border-radius: 5px;
+	 transition: all 0.25s ease-in-out;
+}
+ .grid-container div p {
+	 margin: 5px 0;
+	 padding: 0;
+	 text-align: center;
+	 font-style: italic;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #ff7f50;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.orange {
+	background-color: #ffdacc
+}
+ 
